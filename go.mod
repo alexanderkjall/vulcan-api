@@ -1,6 +1,7 @@
 module github.com/adevinta/vulcan-api
 
-go 1.21.0
+go 1.21.2
+
 toolchain go1.21.4
 
 require (
@@ -32,6 +33,8 @@ require (
 	gopkg.in/go-playground/validator.v9 v9.31.0
 	gopkg.in/testfixtures.v2 v2.6.0
 )
+
+replace github.com/adevinta/vulcan-types => github.com/alexanderkjall/vulcan-types v1.2.8
 
 require (
 	github.com/DataDog/datadog-go v4.8.3+incompatible // indirect
