@@ -33,8 +33,6 @@ require (
 	gopkg.in/testfixtures.v2 v2.6.0
 )
 
-replace github.com/adevinta/vulcan-types => github.com/alexanderkjall/vulcan-types v1.2.8
-
 require (
 	github.com/DataDog/datadog-go v4.8.3+incompatible // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
